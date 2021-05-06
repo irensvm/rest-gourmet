@@ -17,8 +17,8 @@ router.post('/restaurants', (req, res, next) => {
     .catch(err => {
       res.json(err)
     })
-  })
-  
+  }) 
+
 
 
   router.get('/restaurants', (req, res, next) => {
